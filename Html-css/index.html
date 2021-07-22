@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+/* 
+    
+        @media (min-width: 250px) {
+            body{
+                background-color: wheat;
+        }
+
+        @media (max-width: 255px) {
+            body{
+                background-color: blue;
+            }
+        } */
+
+        #top {
+            font-size: 20px;
+        }
+
+        #mid {
+            font-size:  15px;
+        }
+
+        #bot{
+            font-size:  10px;
+        }
+        #top .name{
+            color: red;
+        }
+        .name{
+            font-weight: bold;
+        }
+        #mid-name{
+            color: blue;
+        }
+        
+        a {
+            color: red;
+        }
+        /*  เวลาชี้จะทำให้ link เปลี่ยนสี */
+        a:hover{
+            color:blue; 
+        }
+        #list-1{
+            color: cadetblue;
+        }
+        #list-2{
+            color: chocolate;
+        }
+        li:hover{
+            color:darkblue;
+        }
+
+        .container{
+            display: flex;
+            flex-wrap:  wrap;
+        }
+
+        .container > div{
+            width: 200px;
+            margin: 20px; /* margin  เป็นการให้ระยะ*/
+            padding:  20px; /* padding จะทำให้ขอบ background  ใหญ่ขึ้น */
+            background-color: cadetblue;
+        }
+
+    </style>
+    <title>Home</title>
+</head>
+<body>
+    <div id="top">
+        This is the <span class="name">Top</span>
+    </div>
+    <div id="mid">
+        This is the <span id="mid-name" class="name">Mid</span>
+    </div>
+    <div id="bot">
+        This is the <span class="name">Bot</span>
+    </div>
+    <hr>
+    <p>Visit <a href="https://google.com">Google</a></p>
+    <hr>
+    <ul id="list-1">
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+    </ul>
+    <ul id="list-2">
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+    </ul>
+    <hr>
+    <div class="container">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos nobis dolorum libero quaerat tempore eos cumque unde, nisi sint!</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos nobis dolorum libero quaerat tempore eos cumque unde, nisi sint!</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos nobis dolorum libero quaerat tempore eos cumque unde, nisi sint!</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos nobis dolorum libero quaerat tempore eos cumque unde, nisi sint!</div>
+    </div>
+</body>
+</html>
